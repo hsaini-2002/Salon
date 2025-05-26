@@ -1,0 +1,1055 @@
+{
+    "site": {
+      "id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+      "subdomain": "d2d",
+      "name": "Demo Website",
+      "is_active": true,
+      "created_by": "c9557e00-5aec-4113-ae36-69f96b57e00f",
+      "created_at": "2025-05-19T19:06:13.627779+00:00",
+      "updated_at": "2025-05-19T19:06:13.627779+00:00"
+    },
+    "siteMeta": {
+      "id": "fbebcbed-075a-4913-b241-aed2877ee21c",
+      "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+      "title": "Eye Catchers Salon",
+      "description": "A demonstration of our modular website builder",
+      "og_image": "https://via.placeholder.com/1200x630",
+      "favicon": "https://via.placeholder.com/32x32",
+      "keywords": "demo, website, modular, builder",
+      "twitter_handle": "@demosite"
+    },
+    "config": {
+      "id": "56a779ad-a561-41e5-b988-11bdc5628491",
+      "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+      "font_body": "Inter",
+      "font_heading": "Poppins",
+      "font_body_weights": [
+        "400",
+        "500"
+      ],
+      "font_heading_weights": [
+        "600",
+        "700"
+      ],
+      "max_width": "1280px",
+      "radius_lg": "1rem",
+      "radius_md": "0.5rem",
+      "radius_sm": "0.25rem",
+      "radius_full": "9999px"
+    },
+    "theme": {
+      "id": "d5ac8346-16a4-47d8-b7f0-4e4a42be8fcc",
+      "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+      "name": "Default Theme",
+      "primary_color": "#38bdf8",
+      "primary_hover": "#0ea5e9",
+      "secondary": "#f97316",
+      "secondary_hover": "#ea580c",
+      "accent": "#8b5cf6",
+      "accent_hover": "#7c3aed",
+      "background": "#ffffff",
+      "foreground": "#0f172a",
+      "muted": "#f1f5f9",
+      "border": "#e2e8f0",
+      "card": "#ffffff",
+      "card_foreground": "#0f172a",
+      "error": "#ef4444",
+      "success": "#22c55e",
+      "footer": "#0f172a",
+      "footer_text": "#f8fafc",
+      "overlay_dark": "rgba(0, 0, 0, 0.8)",
+      "overlay_light": "rgba(255, 255, 255, 0.8)",
+      "overlay_medium": "rgba(0, 0, 0, 0.4)"
+    },
+    "pages": {
+      "home": {
+        "id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+        "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+        "slug": "home",
+        "title": "Home Page",
+        "sections": [
+          {
+            "id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "HarshSainiHeader",
+            "variant": "1",
+            "position": 1,
+            "is_active": true,
+            "content": {
+              "id": "9b742a78-b86f-4a6a-9f0c-f39747ec5d3f",
+              "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+              "title": "Eye Catchers Salon",
+              "subtitle": "Subtitle",
+              "description": "Description for the new section",
+              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
+              "background_url": null,
+              "cta_text": "Get Started",
+              "cta_link": "/contact"
+            },
+            "items": [
+              {
+                "id": "header-link-home",
+                "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+                "title": "Home",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 0,
+                "cta_text": null,
+                "cta_link": "/"
+              },
+              {
+                "id": "header-link-services",
+                "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+                "title": "Services",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 1,
+                "cta_text": null,
+                "cta_link": "/services"
+              },
+              {
+                "id": "header-link-about",
+                "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+                "title": "About Us",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 2,
+                "cta_text": null,
+                "cta_link": "/about"
+              },
+              {
+                "id": "header-link-contact",
+                "section_id": "8d8d8b47-f240-4b64-9f8a-c0f72c737ced",
+                "title": "Contact",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 3,
+                "cta_text": null,
+                "cta_link": "/contact"
+              }
+            ]
+          },
+          {
+            "id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "HarshSainiHero",
+            "variant": "1",
+            "position": 2,
+            "is_active": true,
+            "content": {
+              "id": "a6aa9cff-ca3a-47f2-934d-7a0e4fc0fcf3",
+              "section_id": "d7592df9-ae00-40a2-bdc5-fdddf326e59a",
+              "title": "Brush touch of perfection",
+              "subtitle": "Modern Web Development",
+              "description": "Our modular website builder allows you to create stunning websites with ease. No coding required.",
+              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
+              "background_url": null,
+              "cta_text": "View All Services",
+              "cta_link": "/services"
+            },
+            "items": []
+          },
+          {
+            "id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "HarshSainiServices",
+            "variant": "1",
+            "position": 3,
+            "is_active": true,
+            "content": {
+              "id": "9122a11d-fcb9-4109-a182-8f45fa2a3df1",
+              "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+              "title": "Service beyond expectation",
+              "subtitle": "",
+              "description": "Our hair salon is the territory created purely for women who appreciate premium quality, time and flawless look. At our place, you have a chance to have really good time.",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": "View All Services",
+              "cta_link": "/services"
+            },
+            "items": [
+              {
+                "id": "697983ce-5f8b-46db-89be-22e6471f3f5a",
+                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+                "title": "Makeup",
+                "subtitle": "Custom Solutions",
+                "description": "Professional makeup application for special events, photoshoots, or a fresh new look.",
+                "icon": null,
+                "image_url": "https://cdn-icons-png.flaticon.com/128/3163/3163173.png",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 0
+              },
+              {
+                "id": "8838565f-e964-40be-b8b8-5c0e38180d80",
+                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+                "title": "Cosmetology",
+                "subtitle": "Online Stores",
+                "description": "Advanced skin care treatments and consultations tailored to your specific needs.",
+                "icon": null,
+                "image_url": "https://cdn-icons-png.flaticon.com/128/7305/7305214.png",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 1
+              },
+              {
+                "id": "19d93208-162d-46b8-a57c-69294d21ab14",
+                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+                "title": "Depilation",
+                "subtitle": "Improve Rankings",
+                "description": "Safe and effective hair removal services for smooth, long-lasting results.",
+                "icon": null,
+                "image_url": "https://cdn-icons-png.flaticon.com/128/4614/4614227.png",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 2
+              },
+              {
+                "id": "697983ce-5f8b-46db-89be-22e6471f3f5b",
+                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+                "title": "Hairstyle",
+                "subtitle": "Hair Care",
+                "description": "Professional haircuts, styling, and treatments for all hair types.",
+                "icon": null,
+                "image_url": "https://cdn-icons-png.flaticon.com/128/32/32069.png",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 3
+              },
+              {
+                "id": "697983ce-5f8b-46db-89be-22e6471f3f5c",
+                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+                "title": "Manicure",
+                "subtitle": "Nail Care",
+                "description": "Basic manicure and pedicure, gel, or acrylic - we do it all!",
+                "icon": null,
+                "image_url": "https://cdn-icons-png.flaticon.com/128/17828/17828559.png",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 4
+              },
+              {
+                "id": "697983ce-5f8b-46db-89be-22e6471f3f5d",
+                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+                "title": "Pedicure",
+                "subtitle": "Foot Care",
+                "description": "Relaxing pedicure services to keep your feet healthy and beautiful.",
+                "icon": null,
+                "image_url": "https://cdn-icons-png.flaticon.com/128/3461/3461923.png",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 5
+              },
+              {
+                "id": "697983ce-5f8b-46db-89be-22e6471f3f5e",
+                "section_id": "a088a10c-5616-42c0-a90a-c5b19544c757",
+                "title": "Facials",
+                "subtitle": "Skin Treatments",
+                "description": "Rejuvenate your skin with our variety of facial treatments.",
+                "icon": null,
+                "image_url": "https://cdn-icons-png.flaticon.com/128/2763/2763384.png",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 6
+              }
+            ]
+          },
+          {
+            "id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "HarshSainiGallery",
+            "variant": "1",
+            "position": 4,
+            "is_active": true,
+            "content": {
+              "id": "c401e429-d283-45bb-948d-4b4485b97e6c",
+              "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+              "title": "Our Gallery",
+              "subtitle": "Beauty Transformations",
+              "description": "Take a look at some of our amazing work and transformations",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": null,
+              "cta_link": null
+            },
+            "items": [
+              {
+                "id": "gallery-image-1",
+                "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+                "image_url": "https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              },
+              {
+                "id": "gallery-image-2",
+                "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+                "image_url": "https://images.pexels.com/photos/973403/pexels-photo-973403.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              },
+              {
+                "id": "gallery-image-3",
+                "section_id": "53760ad3-06dc-43f9-ad66-c42937f90aeb",
+                "image_url": "https://images.pexels.com/photos/16120497/pexels-photo-16120497.jpeg?auto=compress&cs=tinysrgb&h=204&fit=crop&w=228&dpr=2"
+              }
+            ]
+          },
+          {
+            "id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "HarshSainiTestimonials",
+            "variant": "1",
+            "position": 5,
+            "is_active": true,
+            "content": {
+              "id": "48813f16-3aea-471a-8df6-b3f999c5617d",
+              "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+              "title": "Customer Testimonials",
+              "subtitle": "What Our Clients Say",
+              "description": "Hear from our satisfied customers about their experience working with us.",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": null,
+              "cta_link": null
+            },
+            "items": [
+              {
+                "id": "574ffd62-8291-4c24-9996-0022ae00bb93",
+                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+                "title": "Emma Wilson",
+                "subtitle": "",
+                "description": "The service was absolutely amazing! The staff was incredibly friendly and professional. I left feeling refreshed and beautiful. Will definitely be coming back!",
+                "icon": null,
+                "image_url": "https://via.placeholder.com/100x100",
+                "rating": 5,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 0
+              },
+              {
+                "id": "8f60eb15-48cb-4332-9eb8-069c06116102",
+                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+                "title": "Sophia Chen",
+                "subtitle": "",
+                "description": "I've been to many salons, but this one stands out! The attention to detail and personalized care made my experience exceptional. My hair has never looked better!",
+                "icon": null,
+                "image_url": "https://via.placeholder.com/100x100",
+                "rating": 5,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 1
+              },
+              {
+                "id": "350c0ae3-a23d-4f07-988d-cc5d384732f7",
+                "section_id": "8453573e-d3e7-4e95-8057-9a3d7b8a5eed",
+                "title": "Olivia Martinez",
+                "subtitle": "",
+                "description": "What a wonderful experience! The atmosphere is so relaxing and the results exceeded my expectations. The team here truly knows how to make you feel special.",
+                "icon": null,
+                "image_url": "https://via.placeholder.com/100x100",
+                "rating": 5,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 2
+              }
+            ]
+          },
+          {
+            "id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+            "page_id": "a6452a55-af24-40db-9490-42852c3e7b9a",
+            "type": "HarshSainiAppointment",
+            "variant": "1",
+            "position": 6,
+            "is_active": true,
+            "content": {
+              "id": "0c6e2e4e-78dd-4e53-b5f6-2c9b793feccc",
+              "section_id": "0a07df4f-b9fb-45f5-843a-f5ae513d0e61",
+              "title": "Book An Appointment",
+              "subtitle": "Schedule Your Visit",
+              "description": "Ready to experience our premium services? Book your appointment today!",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": []
+          },
+          {
+            "id": "new-footer-section-id",
+            "page_id": "a6452a55-af24-40db-9490-45ae513d0e61",
+            "type": "HarshSainiFooter",
+            "variant": "1",
+            "position": 8,
+            "is_active": true,
+            "content": {
+              "id": "new-footer-content-id",
+              "section_id": "new-footer-section-id",
+              "title": "",
+              "subtitle": "Subtitle for Footer",
+              "description": "",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": null,
+              "cta_link": null
+            },
+            "items": []
+          }
+        ]
+      },
+      "services": {
+        "id": "services-page-id",
+        "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+        "slug": "services",
+        "title": "Our Services",
+        "sections": [
+          {
+            "id": "services-header-section",
+            "page_id": "services-page-id",
+            "type": "HarshSainiHeader",
+            "variant": "1",
+            "position": 1,
+            "is_active": true,
+            "content": {
+              "id": "services-header-content",
+              "section_id": "services-header-section",
+              "title": "Eye Catchers Salon",
+              "subtitle": "Our Services",
+              "description": "Discover our range of premium beauty and wellness services",
+              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": [
+              {
+                "id": "header-link-home",
+                "section_id": "services-header-section",
+                "title": "Home",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 0,
+                "cta_text": null,
+                "cta_link": "/"
+              },
+              {
+                "id": "header-link-services",
+                "section_id": "services-header-section",
+                "title": "Services",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 1,
+                "cta_text": null,
+                "cta_link": "/services"
+              },
+              {
+                "id": "header-link-about",
+                "section_id": "services-header-section",
+                "title": "About Us",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 2,
+                "cta_text": null,
+                "cta_link": "/about"
+              },
+              {
+                "id": "header-link-contact",
+                "section_id": "services-header-section",
+                "title": "Contact",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 3,
+                "cta_text": null,
+                "cta_link": "/contact"
+              }
+            ]
+          },
+          {
+            "id": "services-content-section",
+            "page_id": "services-page-id",
+            "type": "HarshSainiServicesPage",
+            "variant": "1",
+            "position": 2,
+            "is_active": true,
+            "content": {
+              "id": "services-content",
+              "section_id": "services-content-section",
+              "title": "Our Services",
+              "subtitle": "Premium Beauty & Wellness",
+              "description": "Discover our range of premium beauty and wellness services, designed to enhance your natural beauty and provide a luxurious experience.",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": [
+              {
+                "id": "697983ce-5f8b-46db-89be-22e6471f3f5a",
+                "section_id": "services-content-section",
+                "title": "Makeup",
+                "subtitle": "Custom Solutions",
+                "description": "Professional makeup application for special events, photoshoots, or a fresh new look.",
+                "icon": null,
+                "image_url": "https://media.istockphoto.com/id/1340302535/photo/beautiful-indian-woman-getting-ready-to-a-wedding-reception-at-the-beauty-parlor.jpg?b=1&s=612x612&w=0&k=20&c=El1ZMRa8JVBDY75a4K4U34ah5Sa3gK2TrLtg6wlOkQ8=",
+                "rating": null,
+                "price": "$50 - $100",
+                "duration": "1-2 hours",
+                "tag": "Popular",
+                "position": 0
+              },
+              {
+                "id": "8838565f-e964-40be-b8b8-5c0e38180d80",
+                "section_id": "services-content-section",
+                "title": "Cosmetology",
+                "subtitle": "Skin Care",
+                "description": "Advanced skin care treatments and consultations tailored to your specific needs.",
+                "icon": null,
+                "image_url": "https://images.pexels.com/photos/8450230/pexels-photo-8450230.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": "$80 - $150",
+                "duration": "1-1.5 hours",
+                "tag": "Featured",
+                "position": 1
+              },
+              {
+                "id": "19d93208-162d-46b8-a57c-69294d21ab14",
+                "section_id": "services-content-section",
+                "title": "Depilation",
+                "subtitle": "Hair Removal",
+                "description": "Safe and effective hair removal services for smooth, long-lasting results.",
+                "icon": null,
+                "image_url": "http://images.pexels.com/photos/19239092/pexels-photo-19239092/free-photo-of-laser-hair-removal-in-the-beauty-salon-woman-having-professional-laser-epilation-procedure-of-arm.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": "$40 - $75",
+                "duration": "30-45 minutes",
+                "tag": null,
+                "position": 2
+              },
+              {
+                "id": "new-service-id-1",
+                "section_id": "services-content-section",
+                "title": "Manicure",
+                "subtitle": "Nail Care",
+                "description": "Comprehensive manicure service including nail shaping, cuticle care, moisturizing, and polish options.",
+                "icon": null,
+                "image_url": "https://images.pexels.com/photos/1164339/pexels-photo-1164339.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": "$35 - $60",
+                "duration": "45 minutes",
+                "tag": "Popular",
+                "position": 3
+              },
+              {
+                "id": "new-service-id-2",
+                "section_id": "services-content-section",
+                "title": "Pedicure",
+                "subtitle": "Foot Care",
+                "description": "Relaxing pedicure services to keep your feet healthy and beautiful.",
+                "icon": null,
+                "image_url": "https://images.pexels.com/photos/161737/pedicure-massage-therapist-spa-161737.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": "$45 - $80",
+                "duration": "1 hour",
+                "tag": null,
+                "position": 4
+              },
+              {
+                "id": "new-service-id-3",
+                "section_id": "services-content-section",
+                "title": "Facials",
+                "subtitle": "Skin Treatments",
+                "description": "Rejuvenate your skin with our variety of facial treatments.",
+                "icon": null,
+                "image_url": "https://images.pexels.com/photos/6724476/pexels-photo-6724476.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": "$70 - $120",
+                "duration": "1-1.5 hours",
+                "tag": "Featured",
+                "position": 5
+              }
+            ]
+          },
+          {
+            "id": "services-gallery-section",
+            "page_id": "services-page-id",
+            "type": "HarshSainiGallery",
+            "variant": "1",
+            "position": 3,
+            "is_active": true,
+            "content": {
+              "id": "services-gallery-content",
+              "section_id": "services-gallery-section",
+              "title": "Our Work Gallery",
+              "subtitle": "Beauty Transformations",
+              "description": "Take a look at some of our amazing work and transformations",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": null,
+              "cta_link": null
+            },
+            "items": [
+              {
+                "id": "gallery-image-1",
+                "section_id": "services-gallery-section",
+                "image_url": "https://images.pexels.com/photos/705255/pexels-photo-705255.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              },
+              {
+                "id": "gallery-image-2",
+                "section_id": "services-gallery-section",
+                "image_url": "https://images.pexels.com/photos/973403/pexels-photo-973403.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              },
+              {
+                "id": "gallery-image-3",
+                "section_id": "services-gallery-section",
+                "image_url": "https://images.pexels.com/photos/16120497/pexels-photo-16120497.jpeg?auto=compress&cs=tinysrgb&h=204&fit=crop&w=228&dpr=2"
+              }
+            ]
+          },
+          {
+            "id": "services-testimonials-section",
+            "page_id": "services-page-id",
+            "type": "HarshSainiTestimonials",
+            "variant": "1",
+            "position": 4,
+            "is_active": true,
+            "content": {
+              "id": "services-testimonials-content",
+              "section_id": "services-testimonials-section",
+              "title": "Customer Testimonials",
+              "subtitle": "What Our Clients Say",
+              "description": "Hear from our satisfied customers about their experience with our services.",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": null,
+              "cta_link": null
+            },
+            "items": [
+              {
+                "id": "574ffd62-8291-4c24-9996-0022ae00bb93",
+                "section_id": "services-testimonials-section",
+                "title": "Emma Wilson",
+                "subtitle": "",
+                "description": "The service was absolutely amazing! The staff was incredibly friendly and professional. I left feeling refreshed and beautiful. Will definitely be coming back!",
+                "icon": null,
+                "image_url": "https://via.placeholder.com/100x100",
+                "rating": 5,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 0
+              },
+              {
+                "id": "8f60eb15-48cb-4332-9eb8-069c06116102",
+                "section_id": "services-testimonials-section",
+                "title": "Sophia Chen",
+                "subtitle": "",
+                "description": "I've been to many salons, but this one stands out! The attention to detail and personalized care made my experience exceptional. My hair has never looked better!",
+                "icon": null,
+                "image_url": "https://via.placeholder.com/100x100",
+                "rating": 5,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 1
+              },
+              {
+                "id": "350c0ae3-a23d-4f07-988d-cc5d384732f7",
+                "section_id": "services-testimonials-section",
+                "title": "Olivia Martinez",
+                "subtitle": "",
+                "description": "What a wonderful experience! The atmosphere is so relaxing and the results exceeded my expectations. The team here truly knows how to make you feel special.",
+                "icon": null,
+                "image_url": "https://via.placeholder.com/100x100",
+                "rating": 5,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 2
+              }
+            ]
+          },
+          {
+            "id": "services-appointment-section",
+            "page_id": "services-page-id",
+            "type": "HarshSainiAppointment",
+            "variant": "1",
+            "position": 5,
+            "is_active": true,
+            "content": {
+              "id": "services-appointment-content",
+              "section_id": "services-appointment-section",
+              "title": "Book An Appointment",
+              "subtitle": "Schedule Your Visit",
+              "description": "Ready to experience our premium services? Book your appointment today!",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": []
+          },
+          {
+            "id": "services-footer-section",
+            "page_id": "services-page-id",
+            "type": "HarshSainiFooter",
+            "variant": "1",
+            "position": 3,
+            "is_active": true,
+            "content": {
+              "id": "services-footer-content",
+              "section_id": "services-footer-section",
+              "title": "Eye Catchers Salon",
+              "subtitle": "Beauty & Wellness",
+              "description": "Your destination for premium beauty and wellness services",
+              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": []
+          }
+        ]
+      },
+      "about": {
+        "id": "about-page-id",
+        "site_id": "4fafcd74-7ba1-48a2-937f-4a46a5010c37",
+        "slug": "about",
+        "title": "About Us",
+        "sections": [
+          {
+            "id": "about-header-section",
+            "page_id": "about-page-id",
+            "type": "HarshSainiHeader",
+            "variant": "1",
+            "position": 1,
+            "is_active": true,
+            "content": {
+              "id": "about-header-content",
+              "section_id": "about-header-section",
+              "title": "Eye Catchers Salon",
+              "subtitle": "About Us",
+              "description": "Learn more about our story and commitment to beauty",
+              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": [
+              {
+                "id": "header-link-home",
+                "section_id": "about-header-section",
+                "title": "Home",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 0,
+                "cta_text": null,
+                "cta_link": "/"
+              },
+              {
+                "id": "header-link-services",
+                "section_id": "about-header-section",
+                "title": "Services",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 1,
+                "cta_text": null,
+                "cta_link": "/services"
+              },
+              {
+                "id": "header-link-about",
+                "section_id": "about-header-section",
+                "title": "About Us",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 2,
+                "cta_text": null,
+                "cta_link": "/about"
+              },
+              {
+                "id": "header-link-contact",
+                "section_id": "about-header-section",
+                "title": "Contact",
+                "subtitle": null,
+                "description": null,
+                "icon": null,
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 3,
+                "cta_text": null,
+                "cta_link": "/contact"
+              }
+            ]
+          },
+          {
+            "id": "about-story-section",
+            "page_id": "about-page-id",
+            "type": "HarshSainiAbout",
+            "variant": "1",
+            "position": 2,
+            "is_active": true,
+            "content": {
+              "id": "about-story-content",
+              "section_id": "about-story-section",
+              "title": "Our Story",
+              "subtitle": "A Journey of Beauty and Excellence",
+              "description": "Founded in 2015, Eye Catchers Salon has been at the forefront of beauty and wellness services. Our journey began with a simple vision: to create a space where beauty meets expertise, and where every client feels valued and beautiful.",
+              "image_url": "https://images.pexels.com/photos/3993446/pexels-photo-3993446.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              "background_url": null,
+              "cta_text": "Learn More",
+              "cta_link": "#mission"
+            },
+            "items": [
+              {
+                "id": "mission-item",
+                "section_id": "about-story-section",
+                "title": "Our Mission",
+                "subtitle": "Excellence in Beauty",
+                "description": "To provide exceptional beauty and wellness services while creating a welcoming environment where clients can relax, rejuvenate, and enhance their natural beauty.",
+                "icon": "FaStar",
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 0
+              },
+              {
+                "id": "vision-item",
+                "section_id": "about-story-section",
+                "title": "Our Vision",
+                "subtitle": "Beauty Without Boundaries",
+                "description": "To be the leading beauty destination that sets trends and standards in the industry, while maintaining the highest level of customer satisfaction and service quality.",
+                "icon": "FaEye",
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 1
+              },
+              {
+                "id": "values-item",
+                "section_id": "about-story-section",
+                "title": "Our Values",
+                "subtitle": "What We Stand For",
+                "description": "Quality, professionalism, innovation, and customer satisfaction are the core values that drive everything we do at Eye Catchers Salon.",
+                "icon": "FaHeart",
+                "image_url": null,
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": null,
+                "position": 2
+              }
+            ]
+          },
+          {
+            "id": "about-team-section",
+            "page_id": "about-page-id",
+            "type": "HarshSainiTeam",
+            "variant": "1",
+            "position": 3,
+            "is_active": true,
+            "content": {
+              "id": "about-team-content",
+              "section_id": "about-team-section",
+              "title": "Meet Our Team",
+              "subtitle": "Expert Beauty Professionals",
+              "description": "Our team of skilled professionals brings years of experience and passion to every service we offer.",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": null,
+              "cta_link": null
+            },
+            "items": [
+              {
+                "id": "team-member-1",
+                "section_id": "about-team-section",
+                "title": "Sarah Johnson",
+                "subtitle": "Lead Stylist",
+                "description": "With over 10 years of experience, Sarah specializes in hair coloring and styling.",
+                "icon": null,
+                "image_url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": "Expert",
+                "position": 0
+              },
+              {
+                "id": "team-member-2",
+                "section_id": "about-team-section",
+                "title": "Michael Chen",
+                "subtitle": "Makeup Artist",
+                "description": "Michael brings creativity and precision to every makeup application.",
+                "icon": null,
+                "image_url": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": "Specialist",
+                "position": 1
+              },
+              {
+                "id": "team-member-3",
+                "section_id": "about-team-section",
+                "title": "Emma Rodriguez",
+                "subtitle": "Skin Care Specialist",
+                "description": "Emma's expertise in skin care treatments has helped countless clients achieve their skin goals.",
+                "icon": null,
+                "image_url": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                "rating": null,
+                "price": null,
+                "duration": null,
+                "tag": "Expert",
+                "position": 2
+              }
+            ]
+          },
+          {
+            "id": "about-appointment-section",
+            "page_id": "about-page-id",
+            "type": "HarshSainiAppointment",
+            "variant": "1",
+            "position": 4,
+            "is_active": true,
+            "content": {
+              "id": "about-appointment-content",
+              "section_id": "about-appointment-section",
+              "title": "Experience Our Services",
+              "subtitle": "Book Your Appointment",
+              "description": "Ready to experience our premium beauty services? Book your appointment today!",
+              "image_url": null,
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": []
+          },
+          {
+            "id": "about-footer-section",
+            "page_id": "about-page-id",
+            "type": "HarshSainiFooter",
+            "variant": "1",
+            "position": 5,
+            "is_active": true,
+            "content": {
+              "id": "about-footer-content",
+              "section_id": "about-footer-section",
+              "title": "Eye Catchers Salon",
+              "subtitle": "Beauty & Wellness",
+              "description": "Your destination for premium beauty and wellness services",
+              "image_url": "https://i.ibb.co/2LcZ3BQ/logo.webp",
+              "background_url": null,
+              "cta_text": "Book Now",
+              "cta_link": "/contact"
+            },
+            "items": []
+          }
+        ]
+      },
+      "contact": {
+        "id": "contact-page",
+        "title": "Contact Us",
+        "slug": "contact",
+        "is_active": true,
+        "sections": [
+          {
+            "id": "contact-section",
+            "page_id": "contact-page",
+            "type": "HarshSainiContact",
+            "variant": "1",
+            "position": 1,
+            "is_active": true,
+            "content": {
+              "title": "Get in Touch",
+              "subtitle": "We'd love to hear from you",
+              "description": "Have questions about our services or want to book an appointment? Fill out the form below and we'll get back to you as soon as possible."
+            },
+            "items": []
+          }
+        ]
+      }
+    }
+  }
